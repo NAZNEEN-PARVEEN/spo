@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for Everyone</title>
+    <link rel="icon" href="./assets/logo.png">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+VN:wght@100..400&family=Poppins&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="main">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+
+            <div class="library">
+                <div class="option">
+                    <div class="lib-option nav-option ">
+                        <img src="/assets/library_icon.png" alt="Library Icon">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1"> Create your first playlist</p>
+                        <p class="box-p2">It's easy,we'll help you</p>
+                        <button class="badge">Creat Playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1"> Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episode</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+            
+           
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="forward">
+                    <img src="./assets/backward_icon.png" alt="#">
+                   <img src="./assets/forward_icon.png"class="hide" alt="#">
+                </div>
+                <div class="right">
+                    <button class="badge item-1 hide  ">Explore Premium</button>
+                   <button class="badge item-2  dark-badge"><i class="fa-solid fa-circle-arrow-down"></i>Install App</button>
+                   <i class="fa-regular fa-user"></i>
+                </div>
+            </div>
+
+            <h2>Recently Played</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="https://c8.alamy.com/comp/HJG173/hindi-music-headphones-sound-shows-song-soundtrack-3d-illustration-HJG173.jpg"class="card-img">
+                        <p class="card-tittle">Top 50-Globle</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da841b20748d2fdb265a135cf433"class="card-img">
+                        <p class="card-tittle">Top 50-Globle</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e02d68ae889df507c616b44fd27"class="card-img">
+                        <p class="card-tittle">Top 50-Globle</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e02ce165d33ba5f8d6569f763e8"class="card-img">
+                        <p class="card-tittle">Top 50-Globle</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d0000b27399dcaf80953b083cc7139a5f"class="card-img">
+                        <p class="card-tittle">Top 50-Globle</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                </div>
+
+                <h2>Trending now near you</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./assets/card2img.jpeg"class="card-img">
+                        <p class="card-tittle">Top 50-Globle</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d0000b27399dcaf80953b083cc7139a5f"class="card-img">
+                        <p class="card-tittle">Top 50-Globle</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d0000b2737ef09f5c235fc74a1b200858"class="card-img">
+                        <p class="card-tittle">Top 50-Globle</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67656300005f1f9d1c9e8036b8733f571c5fcf"class="card-img">
+                        <p class="card-tittle">Top 50-Globle</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d0000b273265fcf262c3aa68a59339300"class="card-img">
+                        <p class="card-tittle">Top 50-Globle</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                </div>
+
+                <h2>Feature Charts</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d0000b2735965ad5271fda3f2a3da4331"class="card-img">
+                        <p class="card-tittle">Top 50-Globle</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d0000b273f251f42eaaff3ea0a2426547"class="card-img">
+                        <p class="card-tittle">Top Songs India</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c04280ce110438d8aa319edd3"class="card-img">
+                        <p class="card-tittle">Top Songs India</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d0000b273c062a416e6c842f2b6bc7eaf"class="card-img">
+                        <p class="card-tittle">Top Songs India</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e02846ef1fd02fb0f5377fa9218"class="card-img">
+                        <p class="card-tittle">Top Songs India</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                </div>
+
+                <div class="footer">
+                    <div class="line"></div>
+                </div>
+
+                 <h2> Your Favourite Radio</h2>
+                <div class="cards-container">
+                    <div class="card-1">
+                        <img src="https://i.scdn.co/image/ab67616d0000b2735965ad5271fda3f2a3da4331"class="card-img">
+                        <p class="card-tittle">Top 50-Globle</p>
+                        <p class="card-info">Listen you Feel Always Good...</p>
+                    </div> 
+
+                    <div class="card-1">
+                        <img src="https://i.scdn.co/image/ab67616d00001e02cf8c0bb736417546f58055f1"class="card-img">
+                        <p class="card-tittle">Top 50-Globle</p>
+                        <p class="card-info">Listen you Feel Always Good...</p>
+                    </div> 
+
+
+                    <div class="card-1">
+                        <img src="https://i.scdn.co/image/ab67616d00001e027f7fe8a497a6743be134d37e"class="card-img">
+                        <p class="card-tittle">Top 50-Globle</p>
+                        <p class="card-info">Listen you Feel Always Good...</p>
+                    </div> 
+
+
+                    <div class="card-1">
+                        <img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da848fb1fbaea9f067ea3411d4b7"class="card-img">
+                        <p class="card-tittle">Top 50-Globle</p>
+                        <p class="card-info">Listen you Feel Always Good...</p>
+                    </div> 
+
+                    <div class="card-1">
+                        <img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da847d3e9689f82eb6a63b9c21b9"class="card-img">
+                        <p class="card-tittle">Top 50-Globle</p>
+                        <p class="card-info">Listen you Feel Always Good...</p>
+                    </div> 
+
+
+
+              
+                </div>
+        
+        <!-- Music Player -->
+        <div class="music-player">
+           <div class="album">
+                <div class="album-control">
+                    <img src="https://i.scdn.co/image/ab67616d00001e02953ea46d035c6a370491fb83" alt="#">
+                    <div class="good">
+                        <h5>Daylight</h5>
+                     <span>Rahat Fateh </span>
+                    </div>
+                    
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-folder"></i>
+
+                </div>
+            
+           </div>
+               <div class="player">
+                  <div class="player-control">
+                        <img src="./assets/player_icon1.png" class="player-control-icon">
+                        <img src="./assets/player_icon2.png" class="player-control-icon">
+                        <img src="./assets/player_icon3.png" class="player-control-icon"style="opacity: 1; height:2rem"  >
+                        <img src="./assets/player_icon4.png" class="player-control-icon">
+                        <img src="./assets/player_icon5.png" class="player-control-icon">
+                    </div>
+                        <div class="plaback-bar">
+                                    <span class="curr-time">00:00</span>
+                                    <input type="range"min="0" max="100" class="progress-bar"step="1">
+                                    <span class="tot-time">3:30</span>
+                        </div>
+                </div>
+                   <div class="control">
+                     <i class="fa-solid fa-play"></i>
+                    <i class="fa-solid fa-microphone"></i>
+                    <i class="fa-solid fa-bars"></i>
+                    <i class="fa-solid fa-sliders"></i>
+                    <i class="fa-solid fa-volume-high"></i>
+                    <input type="range"class="range"> 
+
+                   </div>
+        </div>
+    </div>
+</body>
+</html>
